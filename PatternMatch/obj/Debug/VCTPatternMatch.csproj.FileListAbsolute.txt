@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\PatternMatch\PatternMatch\PatternMatch\obj\Debug\VCTPatternMatch.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PatternMatch\PatternMatch\PatternMatch\bin\Debug\VCTPatternMatch.dll.config
+C:\Users\Admin\Desktop\PatternMatch\PatternMatch\PatternMatch\bin\Debug\VCTPatternMatch.dll
+C:\Users\Admin\Desktop\PatternMatch\PatternMatch\PatternMatch\bin\Debug\VCTPatternMatch.pdb
+C:\Users\Admin\Desktop\PatternMatch\PatternMatch\PatternMatch\obj\Debug\VCTPatternMatch.dll
+C:\Users\Admin\Desktop\PatternMatch\PatternMatch\PatternMatch\obj\Debug\VCTPatternMatch.pdb
+C:\Users\Admin\Desktop\PatternMatch\PatternMatch\PatternMatch\obj\Debug\VCTPatternMatch.csproj.AssemblyReference.cache

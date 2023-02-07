@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Version V1.0 Created on Jan-20-2023
+***********************************
+
+-->
+<RegexReplacePattern>
+  <SUPPLIER Name="VALIANT">
+    <OEM Name="GESTAMP">
+      <DIVISION Name="NA">
+			<Attribute Name="B_EDSNo">
+				<Part Type="Unit" RegexMatch="^([A-Z0-9]{5,6})-([0-9]{2})-([0-9]{2})(-([A-Z0-9]{2}))?(-([A-Z0-9]{2,4})?)-U([0-9]{2})_([A-Z]{1})$" RegexReplace="-0$8" PrefixText="" SuffixText="" />
+				<Part Type="MakeDetail" RegexMatch="^([A-Z0-9]{5,6})-([0-9]{2})-([0-9]{2})(-([A-Z0-9]{2}))?(-([A-Z0-9]{2,4})?)-U([0-9]{2})-([0-9]{3})_([A-Z]{1})$" RegexReplace="-0$8-0$9" PrefixText="" SuffixText="" />
+				<Part Type="WeldParent" RegexMatch="^([A-Z0-9]{5,6})-([0-9]{2})-([0-9]{2})(-([A-Z0-9]{2}))?(-([A-Z0-9]{2,4})?)-U([0-9]{2})-([0-9]{3})_([A-Z]{1})$" RegexReplace="-0$8-0$9" PrefixText="" SuffixText="" />
+				<Part Type="WeldChild" RegexMatch="^([A-Z0-9]{5,6})-([0-9]{2})-([0-9]{2})(-([A-Z0-9]{2}))?(-([A-Z0-9]{2,4})?)-U([0-9]{2})-([0-9]{3})-([a-z]{1,2})_([A-Z]{1})$" RegexReplace="-0$8-0$9-$10" PrefixText="" SuffixText="" />
+			</Attribute>
+			<Attribute Name="B_OPPEDSNo">
+				<Part Type="Unit" RegexMatch="^([A-Z0-9]{5,6})-([0-9]{2})-([0-9]{2})(-([A-Z0-9]{2}))?(-([A-Z0-9]{2,4})?)-U([0-9]{2})_([A-Z]{1})$" RegexReplace="-0$8" PrefixText="" SuffixText="" />
+				<Part Type="MakeDetail" RegexMatch="^([A-Z0-9]{5,6})-([0-9]{2})-([0-9]{2})(-([A-Z0-9]{2}))?(-([A-Z0-9]{2,4})?)-U([0-9]{2})-([0-9]{3})_([A-Z]{1})$" RegexReplace="-0$8-0$9" PrefixText="" SuffixText="" />
+				<Part Type="WeldParent" RegexMatch="^([A-Z0-9]{5,6})-([0-9]{2})-([0-9]{2})(-([A-Z0-9]{2}))?(-([A-Z0-9]{2,4})?)-U([0-9]{2})-([0-9]{3})_([A-Z]{1})$" RegexReplace="-0$8-0$9" PrefixText="" SuffixText="" />
+				<Part Type="WeldChild" RegexMatch="^([A-Z0-9]{5,6})-([0-9]{2})-([0-9]{2})(-([A-Z0-9]{2}))?(-([A-Z0-9]{2,4})?)-U([0-9]{2})-([0-9]{3})-([a-z]{1,2})_([A-Z]{1})$" RegexReplace="-0$8-0$9-$10" PrefixText="" SuffixText="" />
+			</Attribute>      
+      </DIVISION>
+    </OEM>
+	<OEM Name="CHRYSLER">
+      <DIVISION Name="NA">
+			<Attribute Name="B_EDSNo">
+				<Part Type="Unit" RegexMatch="^.*-[Uu](\d{2}).*$" RegexReplace="-0$1" PrefixText="" SuffixText="" />
+				<Part Type="MakeDetail" RegexMatch="^.*-U(\d{2})-.*(\d{4,5}-\d{3})$" RegexReplace="-0$1-$2" PrefixText="" SuffixText="" />
+			</Attribute>
+			<Attribute Name="B_OPPEDSNo">
+				<Part Type="Unit" RegexMatch="^.*-[Uu](\d{2}).*$" RegexReplace="-0$1" PrefixText="" SuffixText="" />
+				<Part Type="MakeDetail" RegexMatch="^.*-U(\d{2})-.*(\d{4,5}-\d{3})$" RegexReplace="-0$1-$2" PrefixText="" SuffixText="" />
+			</Attribute>      
+      </DIVISION>
+    </OEM>
+  </SUPPLIER>
+</RegexReplacePattern>
+

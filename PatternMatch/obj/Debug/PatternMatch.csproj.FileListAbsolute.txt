@@ -1,0 +1,6 @@
+C:\Users\Admin\Desktop\PatternMatch\PatternMatch\PatternMatch\bin\Debug\PatternMatch.pdb
+C:\Users\Admin\Desktop\PatternMatch\PatternMatch\PatternMatch\obj\Debug\PatternMatch.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PatternMatch\PatternMatch\PatternMatch\obj\Debug\PatternMatch.pdb
+C:\Users\Admin\Desktop\PatternMatch\PatternMatch\PatternMatch\bin\Debug\PatternMatch.dll.config
+C:\Users\Admin\Desktop\PatternMatch\PatternMatch\PatternMatch\bin\Debug\PatternMatch.dll
+C:\Users\Admin\Desktop\PatternMatch\PatternMatch\PatternMatch\obj\Debug\PatternMatch.dll
